@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #cac7c7;
+            color: #fff;
+        }
+
+        .contact-form {
+            margin: 50px auto;
+            max-width: 400px;
+            padding: 20px;
+            border-radius: 10px;
+            background-color: #333;
+        }
+
+        .form-group label {
+            color: #fff;
+        }
+
+        .form-group input,
+        .form-group textarea {
+            background-color: #555;
+            color: #fff;
+        }
+
+        .form-group input::placeholder,
+        .form-group textarea::placeholder {
+            color: #ccc;
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-primary:hover {
+            background-color: #0056b3;
+            border-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <img class="navbar-brand " src="./img/logo1.png" width="100" alt="logo">
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav ml-auto float-right">
+                <a class="nav-link font-weight-bold text-dark px-4" href="index.html">Home</a>
+                <a class="nav-link font-weight-bold text-dark px-4" href="./about.html">About</a>
+                <a class="nav-link font-weight-bold text-dark px-4" href="product.html">Product</a>
+                <a class="nav-link font-weight-bold text-dark px-4" href="service.html">Services</a>
+                <a class="nav-link font-weight-bold text-dark px-4" href="#">Contact</a>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 offset-md-2 contact-form ">
+                <h2 class="py-3  text-center ">Contact Us</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="message" rows="3"
+                            placeholder="Enter your message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary w-100">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div >
+        <footer class="bg-dark  text-center">
+            <h6 class="p-2 mb-0 text-light" style="background: black;">Design &
+                Developed By Syed
+                Aamir</h6>
+
+        </footer>
+    </div>
+</body>
+
+</html>
+
